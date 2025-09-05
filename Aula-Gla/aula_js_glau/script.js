@@ -18,7 +18,8 @@ form.onsubmit = function(event) {
     let aulas = Number(totalAulas.value);
 
     let soma = n1 + n2;
-    let repfalta = (aulas / freq) * 10;
+    let presenca = aulas - freq;
+    let repfalta = (presenca / aulas) * 100;
     let resultado = soma / 2;
 
     let apfreq = false;
