@@ -16,11 +16,12 @@ form.onsubmit = function(event) {
     let aulas = Number(totalAulas.value);
     let situacao = '';
     let soma = n1 + n2;
-    let repfalta = (freq / aulas) * 10;
+     let presenca = aulas - freq;
+    let repfalta = (presenca / aulas) * 100;
     let resultado = soma / 2;
 
     let apfreq = false;
-    if (repfalta >= 7.5) {
+    if (repfalta >= 75) {
         situacao = (`Aprovado em Presença com ${repfalta.toFixed(2)}% de frequência.`);
         apfreq = true;
     } else {
