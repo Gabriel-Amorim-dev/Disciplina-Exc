@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula Java Script</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Avaliar Nota do Aluno</h1>
+        <p>Este programa tem como intuito o aperfeiçoamento das habilidades voltadas ao JavaScript</p>
+    <article>
+        <form id="formulario_aluno">
+            <label for="nome_aluno">Nome do Aluno:</label>
+            <input type="text" id="nome_aluno" name="nome_aluno" required>
+
+            <label for="nota1">Nota 1:</label>
+            <input type="number" id="nota1" name="nota1" step="0.01" required>
+
+            <label for="nota2">Nota 2:</label>
+            <input type="number" id="nota2" name="nota2" step="0.01" required>
+
+            <label for="Recuperacao">Recuperação:</label>
+            <input type="number" id="Recuperacao" name="Recuperacao" step="0.01">
+
+            <label for="Frequencia">Frequência (%):</label>
+            <input type="number" id="Frequencia" name="Frequencia" step="0.01" required>
+
+            <label for="Aulas">
+                Total de Aulas:
+                <input type="number" id="Aulas" name="Aulas" required>
+            </label>
+
+            <button type="submit">Avaliar</button>
+
+     
+        </form>
+        <table>
+            <thead>
+                <tr>
+                    <th>Nome do Aluno</th>
+                    <th>Nota 1</th>
+                    <th>Nota 2</th>
+                    <th>Recuperação</th>
+                    <th>Média Final</th>
+                    <th>Frequência (%)</th>
+                    <th>Situação</th>
+                </tr>
+            </thead>
+            <tbody id="tabela_corpo">
+                <!-- As linhas da tabela serão adicionadas aqui via JavaScript -->
+            </tbody>
+        </table>
+    </article>
+    <script src="script.js"></script>
+</body>
+
+
+</html>

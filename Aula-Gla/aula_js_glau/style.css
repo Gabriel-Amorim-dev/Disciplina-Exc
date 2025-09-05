@@ -1,0 +1,121 @@
+/* ---------- Reset básico ---------- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+/* ---------- Body ---------- */
+body {
+    background-color: #f4f7f8;
+    color: #333;
+    padding: 20px;
+}
+
+/* ---------- Header ---------- */
+header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+header h1 {
+    font-size: 2rem;
+    color: #2c3e50;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1rem;
+    color: #555;
+}
+
+/* ---------- Form ---------- */
+form {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    max-width: 500px;
+    margin: 0 auto 30px auto;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+form input {
+    width: 100%;
+    padding: 8px 12px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    margin-bottom: 5px;
+}
+
+form button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    background-color: #3498db;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+form button:hover {
+    background-color: #2980b9;
+}
+
+/* ---------- Tabela ---------- */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+table thead {
+    background-color: #3498db;
+    color: white;
+}
+
+table th, table td {
+    padding: 12px 15px;
+    text-align: center;
+}
+
+table tbody tr:nth-child(even) {
+    background-color: #f4f4f4;
+}
+
+/* ---------- Situação colorida ---------- */
+.aprovado {
+    background-color: #c8e6c9 !important; /* verde claro */
+}
+
+.recuperacao {
+    background-color: #fff9c4 !important; /* amarelo claro */
+}
+
+.reprovado {
+    background-color: #ffcdd2 !important; /* vermelho claro */
+}
+
+/* ---------- Responsividade ---------- */
+@media screen and (max-width: 768px) {
+    table, form {
+        width: 95%;
+    }
+
+    table th, table td {
+        padding: 8px 10px;
+    }
+}
