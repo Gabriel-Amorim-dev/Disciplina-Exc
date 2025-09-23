@@ -72,7 +72,7 @@ Contribuições são bem-vindas\! Se você encontrou um bug, tem uma ideia de me
 Gabriel Gonçalves 
 
   - GitHub: [Gabriel-Amorim-dev](https://github.com/Gabriel-Amorim-dev)
-  - LinkedIn: [Gabriel Gonçalves Menezes de Amorim](https://www.linkedin.com/in/gabriel-gon%C3%A7alves-a037b3350/)
+  - LinkedIn: [Gabriel Gonçalves](https://www.linkedin.com/in/gabriel-gon%C3%A7alves-a037b3350/)
 
 -----
 
