@@ -69,10 +69,10 @@ Contribuições são bem-vindas\! Se você encontrou um bug, tem uma ideia de me
 
 ## ✒️ Autor
 
-Seu Nome
+Gabriel Gonçalves 
 
-  - GitHub: [Seu Usuário do GitHub](https://www.google.com/search?q=https://github.com/SEU-USUARIO)
-  - LinkedIn: [Seu Perfil do LinkedIn](https://www.google.com/search?q=https://www.linkedin.com/in/SEU-USUARIO)
+  - GitHub: [Gabriel-Amorim-dev](https://github.com/Gabriel-Amorim-dev)
+  - LinkedIn: [Gabriel Gonçalves Menezes de Amorim](https://www.linkedin.com/in/gabriel-gon%C3%A7alves-a037b3350/)
 
 -----
 
