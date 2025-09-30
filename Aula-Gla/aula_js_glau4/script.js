@@ -2,7 +2,7 @@ console.log("Aluno: Gabriel Gonçalves Menezes de Amorim");
 console.log("Curso: Ciência da Computação");
 console.log("Disciplina: Tecnologia para Front-End 2");
 console.log("Professor: Glaucio Rocha");
-console.log("Data: 27/06/2024");
+console.log("Data: 27/09/2025");
 
 console.log("\nExercício 1: População dos países A e B");
 
@@ -96,3 +96,4 @@ let tempo = parseInt(prompt("Digite o tempo de investimento (em meses): "));
 let montante = capital * Math.pow((1 + taxaJuros), tempo);
 
 console.log(`Montante após ${tempo} meses: R$ ${montante.toFixed(2)}`);
+
