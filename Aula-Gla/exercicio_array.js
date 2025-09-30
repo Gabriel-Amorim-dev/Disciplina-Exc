@@ -2,7 +2,7 @@ console.log("Aluno: Gabriel Gonçalves Menezes de Amorim");
 console.log("Curso: Ciência da Computação");
 console.log("Disciplina: Tecnologia para Front-End 2");
 console.log("Professor: Glaucio Rocha");
-console.log("Data: 29/09/2024");
+console.log("Data: 29/09/2025");
 
 console.log("\nExercícios Array");
 
@@ -34,4 +34,5 @@ function maiorQueCinco(num) {
 }
 
 let filtrados = numeros2.filter(maiorQueCinco);
+
 console.log("Números maiores que 5:", filtrados);
